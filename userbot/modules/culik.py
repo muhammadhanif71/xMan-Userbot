@@ -95,9 +95,9 @@ async def get_users(event):
 
 CMD_HELP.update(
     {
-        "Invite": f"**➢ Plugin : **`Invite`\
-        \n\n **ᴄᴍᴅ :**  `.inviteall` <username grup yang mau diculik> \
-        \n └⋟ Menculik Member dari Grup Lain ke Grup chat Anda.\
+        "Invite": f"**Plugin : **`Invite`\
+        \n\n •  **Syntax :** `{cmd}inviteall` <username grup yang mau diculik> \
+        \n  •  **Function : ** Menculik Member dari Grup Lain ke Grup chat Anda.\
     "
     }
 )
