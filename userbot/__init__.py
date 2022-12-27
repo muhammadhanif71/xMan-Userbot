@@ -138,8 +138,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "SharingUserbot")
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+GROUP = os.environ.get("GROUP", "stufsupport")
+CHANNEL = os.environ.get("CHANNEL", "stufchannel")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -154,7 +154,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/muhammadhanif71/xMan-Userbot.git"
 )
 
 # Custom Name Sticker Pack
@@ -230,7 +230,7 @@ QUEUE_PIC = (
     os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/d6f92c979ad96b2031cba.png"
 )
 
-DEFAULT = list(map(int, b64decode("ODQ0NDMyMjIw").split()))
+DEFAULT = list(map(int, b64decode("MTAyNzE3NDAzMQ==").split()))
 
 TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./downloads/")
 
@@ -359,9 +359,249 @@ else:
     MAN5 = None
 
 
+if STRING_6:
+    session6 = StringSession(str(STRING_6))
+    MAN2 = TelegramClient(
+        session=session6,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py6 = PyTgCalls(MAN6)
+else:
+    call_py6 = None
+    MAN6 = None
+
+
+if STRING_7:
+    session7 = StringSession(str(STRING_7))
+    MAN7 = TelegramClient(
+        session=session7,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py7 = PyTgCalls(MAN7)
+else:
+    call_py7 = None
+    MAN7 = None
+
+
+if STRING_8:
+    session8 = StringSession(str(STRING_8))
+    MAN8 = TelegramClient(
+        session=session8,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py4 = PyTgCalls(MAN8)
+else:
+    call_py8 = None
+    MAN8 = None
+
+
+if STRING_9:
+    session9 = StringSession(str(STRING_9))
+    MAN9 = TelegramClient(
+        session=session9,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py9 = PyTgCalls(MAN9)
+else:
+    call_py9 = None
+    MAN9 = None
+
+
+if STRING_10:
+    session2 = StringSession(str(STRING_10))
+    MAN10 = TelegramClient(
+        session=session10,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py2 = PyTgCalls(MAN10)
+else:
+    call_py10 = None
+    MAN10 = None
+
+
+if STRING_11:
+    session3 = StringSession(str(STRING_11))
+    MAN11 = TelegramClient(
+        session=session11,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py3 = PyTgCalls(MAN11)
+else:
+    call_py11 = None
+    MAN11 = None
+
+
+if STRING_12:
+    session12 = StringSession(str(STRING_12))
+    MAN12 = TelegramClient(
+        session=session12,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py12 = PyTgCalls(MAN12)
+else:
+    call_py12 = None
+    MAN12 = None
+
+
+if STRING_13:
+    session13 = StringSession(str(STRING_13))
+    MAN13 = TelegramClient(
+        session=session13,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py13 = PyTgCalls(MAN13)
+else:
+    call_py13 = None
+    MAN13 = None
+
+
+if STRING_14:
+    session14 = StringSession(str(STRING_14))
+    MAN14 = TelegramClient(
+        session=session14,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py14 = PyTgCalls(MAN14)
+else:
+    call_py14 = None
+    MAN14 = None
+
+
+if STRING_15:
+    session15 = StringSession(str(STRING_15))
+    MAN3 = TelegramClient(
+        session=session15,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py15 = PyTgCalls(MAN15)
+else:
+    call_py15 = None
+    MAN15 = None
+
+
+if STRING_16:
+    session16 = StringSession(str(STRING_16))
+    MAN16 = TelegramClient(
+        session=session16,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py16 = PyTgCalls(MAN16)
+else:
+    call_py16 = None
+    MAN16 = None
+
+
+if STRING_17:
+    session17 = StringSession(str(STRING_17))
+    MAN17 = TelegramClient(
+        session=session17,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py17 = PyTgCalls(MAN17)
+else:
+    call_py17 = None
+    MAN17 = None
+
+
+if STRING_18:
+    session18 = StringSession(str(STRING_18))
+    MAN18 = TelegramClient(
+        session=session18,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py18 = PyTgCalls(MAN18)
+else:
+    call_py18 = None
+    MAN18 = None
+
+
+if STRING_19:
+    session19 = StringSession(str(STRING_19))
+    MAN19 = TelegramClient(
+        session=session3,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py19 = PyTgCalls(MAN19)
+else:
+    call_py19 = None
+    MAN19 = None
+
+
+if STRING_20:
+    session20 = StringSession(str(STRING_20))
+    MAN20 = TelegramClient(
+        session=session20,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py20 = PyTgCalls(MAN20)
+else:
+    call_py20 = None
+    MAN20 = None
+
+
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Man-UserBot v{BOT_VER} is back up and running!**\n\n"
+        f"**xMan-UserBot v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
     )
@@ -529,15 +769,15 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Man - Userbot",
-                    url="https://t.me/SharingUserbot",
+                    description="Repository xMan - Userbot",
+                    url="https://t.me/stufsuport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Support :** @Lunatic0de\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [itachi](https://t.me/kalijogo)\n✣ **Support :** @stufsupport\n✣ **Repository :** [xMan-Userbot](https://github.com/muhammadhanif71/xMan-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/stufsupport"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/muhammadhanif71/xMan-Userbot"
                             ),
                         ],
                     ],
@@ -577,16 +817,16 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✗ Man-Userbot ✗",
-                    description="Man - UserBot | Telethon",
-                    url="https://t.me/SharingUserbot",
+                    title="✗ Mxan-Userbot ✗",
+                    description="xMan - UserBot | Telethon",
+                    url="https://t.me/stufsupport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @Lunatic0de\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**xMan - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @stufsupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/stufsupport"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/muhammadhanif71/xMan-Userbot"
                             ),
                         ],
                     ],
@@ -601,7 +841,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**✗ Man-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✗ xMan-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=logoman,
