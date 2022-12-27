@@ -424,7 +424,7 @@ else:
 
 
 if STRING_10:
-    session2 = StringSession(str(STRING_10))
+    session10 = StringSession(str(STRING_10))
     MAN10 = TelegramClient(
         session=session10,
         api_id=API_KEY,
@@ -440,7 +440,7 @@ else:
 
 
 if STRING_11:
-    session3 = StringSession(str(STRING_11))
+    session11 = StringSession(str(STRING_11))
     MAN11 = TelegramClient(
         session=session11,
         api_id=API_KEY,
