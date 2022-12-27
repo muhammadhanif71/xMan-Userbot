@@ -259,8 +259,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEx1bmF0aWMwZGU="))[2:13]
-gc = str(b64decode("QFNoYXJpbmdVc2VyYm90"))[2:17]
+ch = str(b64decode("c3R1ZmNoYW5uZWw="))[2:13]
+gc = str(b64decode("c3R1ZnN1cHBvcnQ='))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -817,7 +817,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✗ Mxan-Userbot ✗",
+                    title="✗ xMan-Userbot ✗",
                     description="xMan - UserBot | Telethon",
                     url="https://t.me/stufsupport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
