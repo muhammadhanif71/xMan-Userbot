@@ -30,7 +30,7 @@ try:
     for module_name in ALL_MODULES:
         imported_module = import_module(f"userbot.modules.{module_name}")
     client = multiman()
-    total = 5 - client
+    total = 20 - client
     git()
     LOGS.info(f"Total Clients = {total} User")
     LOGS.info(f"Python Version - {python_version()}")
