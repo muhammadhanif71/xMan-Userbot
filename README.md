@@ -47,7 +47,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 -  Install Git `sudo apt install git -y`
 -  Install Python3 `sudo apt install python3`
 -  Install PIP / PIP3 `sudo apt install python3-pip`
--  Install NodeJs 16.X `curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -` then do `sudo apt install -y nodejs vim`
+-  Install NodeJs 18.X `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo bash -` then do `sudo apt install -y nodejs vim`
 -  Install FFMPEG `sudo apt install tree wget2 p7zip-full jq ffmpeg wget git -y`
 -  Install Chrome `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb` lalu ketik `sudo apt install ./google-chrome-stable_current_amd64.deb`
 
